@@ -78,7 +78,7 @@ config:
    - name: github.com
      tokenvar: GH_TOKEN
      apitype: github
-   - name: myprvate.github.com
+   - name: myprivate.github.com
      tokenvar: GH_TOKEN
      apitype: github
    - name: myprivate.gitlab.com
