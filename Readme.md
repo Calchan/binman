@@ -14,7 +14,7 @@ Just add the releasepath to your shell PATH var and you are good to go!
 
 ## Config Sync
 
-To run binman effectively you need a config. 
+To run binman effectively you need a config.
 
 Running binman with no arguments, and no config will populate the default config to your OS's appropriate [config directory](https://pkg.go.dev/os#UserConfigDir). On linux the config file will be added to `~/.config/binman/config`.
 
@@ -139,7 +139,7 @@ releases:
   - repo: kubernetes/kubernetes # a basic example
     url: "https://dl.k8s.io/release/{{.version}}/bin/{{.os}}/{{.arch}}/kubectl",
   - repo: hashicorp/terraform # a sprig example
-    url: https://releases.hashicorp.com/terraform/{{ trimPrefix "v" .version }}/terraform_{{ trimPrefix "v" .version }}_{{.os}}_{{.arch}}.zip`, 
+    url: https://releases.hashicorp.com/terraform/{{ trimPrefix "v" .version }}/terraform_{{ trimPrefix "v" .version }}_{{.os}}_{{.arch}}.zip`,
 
 ```
 

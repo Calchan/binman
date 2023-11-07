@@ -1,10 +1,10 @@
 config:
-  tokenvar: GH_TOKEN 
+  tokenvar: GH_TOKEN
   upx:
     enabled: true
     args: ["-k"] # Args to be added to upx command
 releases:
-  - repo: anchore/syft 
+  - repo: anchore/syft
     upx:
       enabled: false
   - repo: anchore/grype
@@ -15,9 +15,9 @@ releases:
   - repo: docker/compose
     linkname: docker-compose
   - repo: google/go-containerregistry
-    extractfilename: crane 
+    extractfilename: crane
   - repo: GoogleContainerTools/container-structure-test
-    linkname: cst 
+    linkname: cst
   - repo: GoogleContainerTools/container-diff
   - repo: helm/helm
   - repo: jesseduffield/lazygit

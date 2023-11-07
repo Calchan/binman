@@ -33,7 +33,7 @@ config:
 releases:
   - repo: rjbrown57/binman
   - repo: rjbrown57/binman
-    releasefilename:  binman_darwin_amd64 
+    releasefilename:  binman_darwin_amd64
   - repo: rjbrown57/binman
 `
 
@@ -50,7 +50,7 @@ releases:
 
 const testConfigEmptyVals = `
 config:
-  releasepath: 
+  releasepath:
   tokenvar:
   upx:
     enabled: true
@@ -151,7 +151,7 @@ config:
     args: []
 releases:
   - repo: rjbrown57/binman
-  - repo: rjbrown57/binextractor 
+  - repo: rjbrown57/binextractor
     upx:
       enabled: true
       args: ["-k", "-v"]

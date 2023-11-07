@@ -39,5 +39,5 @@ service:
 
 pvc:
   enabled: false
-  storageClassName: standard 
+  storageClassName: standard
   storage: 1Gi

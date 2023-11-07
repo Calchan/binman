@@ -64,4 +64,4 @@ spec:
           medium: Memory
         name: binmandata
       {{- end }}
-     
+

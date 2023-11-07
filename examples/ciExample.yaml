@@ -1,5 +1,5 @@
 config:
-  #releasepath: /set/path/heretopublishto/ # Default is homeDirectory/binMan 
+  #releasepath: /set/path/heretopublishto/ # Default is homeDirectory/binMan
   #tokenvar: GH_TOKEN # GITHUB API TOKEN
   cleanup: true
 releases:

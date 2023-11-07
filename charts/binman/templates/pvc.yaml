@@ -7,7 +7,7 @@ metadata:
   labels:
     {{- include "binman.labels" . | nindent 4 }}
 spec:
-  storageClassName: {{ .Values.pvc.storageClassName }} 
+  storageClassName: {{ .Values.pvc.storageClassName }}
   volumeName: {{ include "binman.fullname" . }}
   accessModes:
     - ReadWriteOnce

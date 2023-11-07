@@ -5,7 +5,7 @@ The below chart describes the current config selection / marshalling logic
 ```mermaid
 flowchart LR
     subgraph setBaseConfig
-    0A[detect base config] .-> A 
+    0A[detect base config] .-> A
     A .-> |else| B
     B .-> |else| C
     end
@@ -14,8 +14,8 @@ flowchart LR
     B --> D
     A -->  D
     A[-c arg supplied]
-    B[ env var defined] 
-    C[ default ] 
+    B[ env var defined]
+    C[ default ]
     D((unmarshal config)) --> E
     E[[detect .binMan.yaml]] .-> F
     E .-> G

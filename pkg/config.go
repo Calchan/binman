@@ -30,10 +30,10 @@ config:
      apitype: github
 releases:
   - repo: rjbrown57/binman
-    linkname: mybinman  
-    downloadonly: false 
+    linkname: mybinman
+    downloadonly: false
     cleanup: true
-    upx: 
+    upx:
       args: [] #["-k","-v"]
   # syncing from gitlab
   #- repo: gitlab.com/gitlab-org/cli

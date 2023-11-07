@@ -8,7 +8,7 @@ config:
   watch: # config for watch mode
     sync: true # sync releases
     frequency: 60 # How frequent to run syncs
-    port: 9091 # Port to expose readiness and metrics on 
+    port: 9091 # Port to expose readiness and metrics on
   sources:
    - name: gitlab.com
      #tokenvar: GL_TOKEN # environment variable that contains gitlab token
@@ -18,10 +18,10 @@ config:
      apitype: github
 releases:
   - repo: rjbrown57/binman
-    linkname: mybinman  
-    downloadonly: false 
+    linkname: mybinman
+    downloadonly: false
     cleanup: true
-    upx: 
+    upx:
       args: [] #["-k","-v"]
   # syncing from gitlab
   #- repo: gitlab.com/gitlab-org/cli

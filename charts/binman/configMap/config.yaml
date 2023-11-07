@@ -6,7 +6,7 @@ config:
     sync: true # sync releases
     fileserver: true # start fileserver pointed at releasepath
     frequency: 60 # How frequent to run syncs
-    port: 9091 # Port to expose readiness and metrics on 
+    port: 9091 # Port to expose readiness and metrics on
   sources:
    - name: gitlab.com
      apitype: gitlab
